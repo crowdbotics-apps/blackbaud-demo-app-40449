@@ -79,16 +79,22 @@ const _styles = StyleSheet.create({
     borderRadius: 5,
     padding: 15,
     alignItems: "center",
-    marginBottom: 10
+    marginBottom: 10,
+    width: 154,
+    height: 57
   },
   vrLPxREK: {
-    color: "#fff",
+    color: "#f3f3f3",
     fontWeight: "bold",
     width: 154,
-    height: 30,
-    position: "relative",
-    left: -69,
-    top: 13
+    height: 17,
+    position: "absolute",
+    left: 1,
+    top: 19,
+    textAlign: "center",
+    flexDirection: "row",
+    flex: 1,
+    alignItems: "stretch"
   },
   IPpULGRJ: {
     textAlign: "center",
